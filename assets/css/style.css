@@ -231,6 +231,9 @@
             border: 5px solid var(--primary-color);
             padding: 10px;
         }
-
+        
+        .carousel{
+            padding:10px;
+        }
 
         
