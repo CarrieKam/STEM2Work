@@ -1,4 +1,4 @@
- :root{
+:root{
      --primary-color:#52B788; 
  }
  
@@ -123,6 +123,7 @@
             color: #fff;
         }
 
+        
         .navbar {
             margin-bottom: 0;
             background-color: var(--primary-color);
@@ -215,3 +216,14 @@
             height: 34vmin;
             width: auto;
         }
+
+        .sucrose{
+            height: 20vmin;
+            width: auto;
+        }
+
+        .video{
+            height:35vmin;
+            width: auto;
+        }
+        
