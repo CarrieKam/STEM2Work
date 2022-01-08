@@ -64,22 +64,6 @@
             height: 100%;
             margin-bottom: 10px;
         }
-        #myCarousel{
-            padding:3em;
-        }
-        .carousel-control.right,
-        .carousel-control.left {
-            background-image: none;
-            color: var(--primary-color);
-        }
-
-        .carousel-indicators li {
-            border-color: var(--primary-color);
-        }
-
-        .carousel-indicators li.active {
-            background-color: var(--primary-color);
-        }
 
         .item h4 {
             font-size: 19px;
@@ -225,20 +209,4 @@
             .logo {
                 font-size: 150px;
             }
-        }
-        #social{
-            padding: 15px;
-        }
-
-        .button{
-            border-radius: 12px;
-            transition-duration: 0.4s;
-            color:var(--primary-color);
-            padding:15px;
-            margin-top: 25px;
-        }
-
-        .button:hover{
-            background-color: wheat;
-            color:var(--primary-color);
         }
