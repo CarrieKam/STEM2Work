@@ -17,28 +17,38 @@
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#myPage">
-                    <img src="./assets/images/duck.jpg" alt="logo" width="50" height="60">
-                </a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#project">PROJECT</a></li>
-                    <li><a href="#video">VIDEOS</a></li>
-                    <li><a href="#job">JOBS</a></li>
-                </ul>
-            </div>
+<nav class="navbar navbar-default navbar-fixed-top">
+
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button"  data-toggle="collapse" data-target="#myNavbar" aria-control="navbarSupported" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#myPage">
+                <img src="./assets/images/robot.png" alt="logo" width="50" height="60">
+            </a>
         </div>
-    </nav>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">ABOUT</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#project" id="navbarDropdownMenuLink" role="nutton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PROJECT
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#game">GAMES</a>
+                        <a class="dropdown-item" href="#ai">AI</a>
+                        <a class="dropdown-item" href="#vocaloid">VOCALOID</a>
+                    </div>
+                </li>
+                <li><a href="#video">VIDEOS</a></li>
+                <li><a href="#job">JOBS</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
     <div class="jumbotron text-center">
         <h1>STEM2Work</h1>
@@ -54,26 +64,70 @@
                 <br>
             </div>
             <div class="col-sm-4">
-                <span class="glyphicon glyphicon-blackboard logo"></span>
+                <img src="assets/gif/welcome.gif" class="helenHusbando">
             </div>
         </div>
     </div>
 
    <!-- Container (Projects Section) -->
-    <div id="project"container-fluid text-center bg-grey">
+    <div id="project" class="container-fluid text-center bg-grey">
         <h2>PROJECTS</h2>
+    
+            <h3 id="games">Games 🎮</h3>
+        <!-- Put carousel images of games here -->
+        <p>
+            <ul>
+                <li>Game Designer</li>
+                    <p> Produce a game by conceptualizing game storylines, environments, levels, character interactions, and many other aspects. </p>
+                <li>Gameplay Programmer</li>
+                    <p> Make a fun game by coding the rules govering interactions of different objets. </p>
+                <li>3D Animator</li>
+                    <p> Create a virtual world by animating images and forms. </p>
+                <li>Project Manager</li>
+                    <p> </p>
+            </ul>
+         
+        </p>
+
+            <h3 id="ai">Artificial Intelligence (AI) 🤖</h3>    
+        <!-- Put carousel images of games here -->
+        <p> Do you like robots? How to simulate human intelligence? How does Siri work? 
+            Artificial Intelligence is a branch part of computer science.
+    
         <ul>
-            <li>Games</li>
-            <li>AI</li>
-            <li>Vocaloid</li>
+            <li>Machine Learning Researchers</li>
+            <p></p>
+            <li>AI Engineer</li>
+            <p></p>
+            <li>Data Mining and Analysis</li>
+            <p></p>
+            <li></li>
+            <p></p>
+            <li></li>
+            <p></p>
         </ul>
+            
+        </p>
+    
+
+            <h3 id="vocaloid">Vocaloid 🎤🎶</h3> 
+        <!-- Put carousel images of games here -->
+
+        <p>
+            Write here this is a paragraph.
+
+        </p>
+
+
     </div>
 
-    <!-- Container (V Section) -->
-    <div id="video" cIDEOSlass="container-fluid text-center">
+    <!-- Container (Video Section) -->
+    <div id="video" class="container-fluid text-center">
         <h2>VIDEOS</h2><br>
         
+        <iframe src="https://www.youtube.com/embed/mZ6nREONy_4"></iframe>
         <iframe src="https://www.youtube.com/embed/hFZFjoX2cGg"></iframe>
+        <iframe src="https://www.youtube.com/embed/-OTd-S7rY98"></iframe>
 
     </div>
 
