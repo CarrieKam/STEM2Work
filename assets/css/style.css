@@ -212,6 +212,25 @@
         }
         
         .helenHusbando{
-            height: 34vmin;
+            height: 25rem;
             width: auto;
+            padding: 10px;
         }
+        .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+             width: 50%;
+            margin: auto;
+        }
+
+        .row-list{
+            justify-content: center;
+        }
+
+        .center {
+            margin: auto;
+            width: 60%;
+            border: 5px solid var(--primary-color);
+            padding: 10px;
+        }
+
+
+        
