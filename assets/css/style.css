@@ -27,8 +27,9 @@
         .jumbotron {
             background-color:var(--primary-color);
             color: #fff;
-            padding: 100px 15px;
+            padding: 40px 15px;
             font-family: Montserrat, sans-serif;
+            margin-bottom: 1px;
         }
 
         .container-fluid {
